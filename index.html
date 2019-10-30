@@ -5,49 +5,39 @@
         <title>Página inicial</title>
     </header>
     <body>
-        <h1>Minha página para o tutorial de HTML</h1>
-        <h2>O que é isso?</h2>
-        <ul>
-            <li>É uma página para um tutorial</li>
-            <li>É um exercício para aprender HTML</li>
-        </ul>
-        <h2>Para que serve isso?</h2>
-        <ol>
-            <li>Para aprender HTML</li>
-            <li>Para praticar com a linguagem</li>
-            <li>Uma lista legal:<br><ul>
-                <li>Esse último aqui é só para criar uma lista aninhada mesmo.</li>
-                <li>Legal, né?</li>
-            </ul></li>
-        </ol>
-        <p>E esta é a <a href="#cool">página do Facebook</a> em que eu trabalho!</p>
-        <img src="images/Captura de tela de 2019-06-21 16-22-49.png" alt="Uma imagem legal!" width="300" height="150"/>
-        <h3>E uma tabela para completar!</h3>
+        <h1>Página final do tutorial</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <h2>Lorem Ipsum</h2>
+        <p>"Lorem <em>ipsum dolor</em> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <h3>Lorem Ipsum dolor sit amet</h3>
+        <p>"Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Este é um link para <a href="https://www.facebook.com/pg/quevergonhaescritor/posts">minha página</a> do facebook.</p>
+        <h4>Uma imagem!</h4>
+        <img src="images/Captura de tela de 2019-06-21 16-22-49.png" alt="Imagem de Girls in the House" width="500" height="300">
+        <h5>Uma tabela!</h5>
         <table>
             <tr>
-                <td>Dado 1</td>
-                <td>Dado 2</td>
+                <th>Dados I</th>
+                <td>Dado IA</td>
+                <td>Dado IB</td>
             </tr>
             <tr>
-                <td>Dado 3</td>
-                <td>dado 4</td>
+                <th>Dados X</th>
+                <td>Dado XA</td>
+                <td>Dado XB</td>
             </tr>
         </table>
+        <h2>Um formulário!</h2>
         <form action="" method="GET">
-            Nome:<input type="text">
-            Senha:<input type="password">
-            Ocupação:<br>
-            Estudante<input type="checkbox">
-            Professor<input type="checkbox">
-            Solteiro:<input type="radio"> Casado:<input type="radio">
-            <input type="submit" value="Enviar">
-            <textarea rows="6" cols="25">Uma área de texto para escrever</textarea>
-            <select>
-                <option>Opção 1</option>
-                <option>Opção 2</option>
-                <option value="Opção 3"></option>
-            </select>
-            
+            <p>Nome:</p>
+            <p><input name="nome"></p>
+            <p>Senha:</p>
+            <p><input type="password" name="senha"></p>
+            <p>Estado civil:</p>
+            <p><input type="radio" name="estadoCivil" value="Solteirx">Solteiro</p>
+            <p><input type="radio" name="estadoCivil" value="Casado">Casado</p>
+            <p>Comentários:</p>
+            <textarea rows="6" cols="18" name="comentario">Comentários</textarea>
         </form>
     </body>
 </html>
