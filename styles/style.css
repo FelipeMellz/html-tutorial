@@ -1,0 +1,22 @@
+body {
+    font-size: 15px;
+    color: black;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+    color: grey;
+}
+
+h3, h4 {
+    font-size: 15px;
+    color: darkgray;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+}
