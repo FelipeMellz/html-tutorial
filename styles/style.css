@@ -1,6 +1,7 @@
 body {
     font-size: 15px;
     color: black;
+    background-color: azure;
 }
 
 h1 {
@@ -19,4 +20,8 @@ h3, h4 {
 
 p {
     font-family: 'Trebuchet MS', sans-serif;
+}
+
+textarea {
+    background-color: darkgrey; 
 }
