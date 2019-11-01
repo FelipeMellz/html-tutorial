@@ -4,24 +4,43 @@ body {
     background-color: azure;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, sans-serif;
+}
 h1 {
     font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 16px;
     color: grey;
+    font-style: italic;
+    margin: 20px;
+    padding: 40px;
 }
 
 h3, h4 {
     font-size: 15px;
     color: darkgray;
+    font-variant: small-caps;
+    text-decoration: underline;
 }
 
 p {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 textarea {
     background-color: darkgrey; 
+}
+
+table {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: blueviolet;
 }
